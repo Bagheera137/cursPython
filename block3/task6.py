@@ -1,0 +1,5 @@
+d=int(input())
+R=int(input())
+n=int(input())
+a=2*(R*n+d)
+print(a)
