@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+a=a-1
+b=b-1
+c=c-1
+n=(a//2)+1
+k=(b//2)+1
+g=(c//2)+1
+print(n+k+g)
