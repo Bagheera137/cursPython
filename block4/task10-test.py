@@ -1,14 +1,11 @@
 from tester import tester
 from task10 import test10
-tester(test10,"YES",5,5,6,7)
-tester(test10,"YES",5,5,6,3)
-tester(test10,"YES",5,5,7,4)
-tester(test10,"YES",5,5,7,6)
-tester(test10,"YES",5,5,4,7)
-tester(test10,"YES",5,5,4,3)
-tester(test10,"YES",5,5,3,4)
-tester(test10,"YES",5,5,3,6)
-tester(test10,"NO",5,5,8,5)
-tester(test10,"NO",5,5,5,8)
-tester(test10,"NO",5,5,2,5)
-tester(test10,"NO",5,5,5,2)
+tester(test10,1,10,5,1,2)
+tester(test10,1,5,10,1,2)
+tester(test10,1,5,10,4,2)
+tester(test10,1,5,10,1,9)
+tester(test10,1,5,10,4,9)
+tester(test10,8,23,52,8,43)
+tester(test10,2,5,87,3,38)
+
+
